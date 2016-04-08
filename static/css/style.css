@@ -1,0 +1,147 @@
+* {
+    color: #fff;
+    font-family: Open Sans, sans-serif;
+}
+
+body {
+    background: url('../img/classpass_bg.png');
+}
+
+a , a:hover, a:focus, a:active {
+    color: #A7E2D4;
+    text-decoration: none;
+}
+
+h1, h3 {
+    font-family: Archivo Narrow, sans-serif;
+    text-transform: uppercase;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(0, 0, 0, 0));
+}
+
+.dropdown-menu,
+.dropdown-menu > li,
+.dropdown-menu > li > a {
+    color: rgba(255, 255, 255, 0.75);
+    background-color: #222;
+    border-color: #080808;
+}
+
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus,
+.dropdown-menu > li > a:active {
+    background-color: #222;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+ul, menu, dir {
+    display: block;
+    list-style-type: disc;
+    background-color: #222;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+}
+
+.navbar-brand,
+.weekday-nav {
+    font-family: Archivo Narrow, sans-serif;
+    text-transform: uppercase;
+}
+
+.navbar-brand {
+    letter-spacing: 0.08em;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+}
+
+.top-pick {
+    border: 12px solid rgba(255, 246, 213, 0.8) !important;
+}
+
+.light {
+    background-color: #64916D;
+    color: rgba(255, 255, 255, 0.7);
+    min-height: 250px;
+    border: 12px solid transparent;
+}
+
+.medium {
+    background-color: #D95B43;
+    color: rgba(255, 255, 255, 0.7);
+    min-height: 250px;
+    border: 12px solid transparent;
+}
+
+.intense {
+    background-color: #C02942;
+    color: rgba(255, 255, 255, 0.7);
+    min-height: 250px;
+    border: 12px solid transparent;
+}
+
+.cardio {
+    background-color: #542437;
+    color: rgba(255, 255, 255, 0.7);
+    min-height: 250px;
+    border: 12px solid transparent;
+}
+
+.recovery {
+    background-color: #53777A;
+    color: rgba(255, 255, 255, 0.7);
+    min-height: 250px;
+    border: 12px solid transparent;
+}
+
+.no-class {
+    background-color: rgba(150, 150, 150, 0.3);;
+    color: rgba(255, 255, 255, 0.6);
+    min-height: 250px;
+    border: 12px solid transparent;
+}
+
+.fa-check-circle {
+    color: #B5C6B8;
+}
+
+.fa-heart {
+    color: #EFD4BA;
+}
+
+.fa-clock-o {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.day-options {
+    font-size: 150%;
+    position: absolute;
+    right: 5;
+    top: 0;
+}
+
+.day-options > .fa-heart,
+.day-options > .fa-pencil {
+    font-size: 93%;
+}
+
+.day-options > .fa-times {
+    font-size: 115%;
+}
+
+.day-option {
+    color: rgba(255, 255, 255, 0.4);
+}
+
+.day-option:hover, 
+.day-option:focus, 
+.day-option:active {
+    color: rgba(255, 255, 255, 0.8);
+}
